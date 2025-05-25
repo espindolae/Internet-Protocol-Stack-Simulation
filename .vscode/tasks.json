@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and Run",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "main.cpp",
+                "layers/application.cpp",
+                "layers/transport.cpp",
+                "layers/network.cpp",
+                "layers/link.cpp",
+                "-o",
+                "network_sim.out",
+                "&&",
+                "./network_sim.out"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
