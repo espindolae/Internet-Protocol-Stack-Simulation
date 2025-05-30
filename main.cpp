@@ -44,3 +44,19 @@ int main() {
     return 0;
     
 }
+
+/** Sample Output
+ * ==== Sending ====
+[Application Layer] Sending: Hello, Network!
+[Transport Layer] Sending: TRANS_HDR|APP_HDR|Hello, Network!
+[Network Layer] Sending: NET_HDR|TRANS_HDR|APP_HDR|Hello, Network!
+[Link Layer] Sending: LINK_HDR|NET_HDR|TRANS_HDR|APP_HDR|Hello, Network!
+
+==== Receiving ====
+[Link Layer] Receiving: LINK_HDR|NET_HDR|TRANS_HDR|APP_HDR|Hello, Network!
+[Network Layer] Receiving: NET_HDR|TRANS_HDR|APP_HDR|Hello, Network!
+[Transport Layer] Receiving: TRANS_HDR|APP_HDR|Hello, Network!
+[Application Layer] Receiving: APP_HDR|Hello, Network!
+
+Final message received: Hello, Network!
+ */
