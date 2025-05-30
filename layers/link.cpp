@@ -1,3 +1,10 @@
+/** Title: : Internet Protocol Stack Simulation Assignment
+ *  Class: CSC475
+ *  Purpose: Implements the Link layer logic for sending and receiving data
+ *  Authors: Eva Espindola, Alex Nguyen, Kendrick Bynum
+ *  Date: May 24th, 2025
+ */
+
 #include "link.h"
 #include <iostream>
  

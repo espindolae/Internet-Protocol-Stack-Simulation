@@ -1,3 +1,11 @@
+/** Title: : Internet Protocol Stack Simulation Assignment
+ *  Class: CSC475
+ *  Purpose: Simulates sending and receiving data 
+ *  through the Internet protocol stack
+ *  Authors: Eva Espindola, Alex Nguyen, Kendrick Bynum
+ *  Date: May 24th, 2025
+ */
+
 #include <iostream>
 #include <string>
 #include "layers/application.h"
